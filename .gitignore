@@ -1,0 +1,49 @@
+# Local datasets and experiment artifacts
+storage/
+configs/
+logs/
+log/
+checkpoints/
+results/
+wandb/
+
+# Ablation-only content
+**/Ablation/
+**/ablation/
+models/*_wo.py
+models/*wo_*.py
+
+# Model checkpoints and generated arrays
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.npy
+*.npz
+*.pkl
+
+# Logs and notebooks
+*.log
+*.out
+*.ipynb
+.ipynb_checkpoints/
+
+# Python cache and environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# IDE, OS, and secrets
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+.env
+.env.*

@@ -1,0 +1,16 @@
+accelerate==1.14.0
+coloredlogs==15.0.1
+einops==0.8.2
+numpy==1.26.4
+pandas>=2.2
+Pillow>=10.0
+ptflops>=0.7
+pyarrow>=14.0
+PyYAML==6.0.3
+requests>=2.31
+scikit-learn>=1.4
+scipy>=1.11
+torch==2.6.0
+torchvision>=0.21
+tqdm==4.68.3
+wandb>=0.18
